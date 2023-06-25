@@ -7,7 +7,7 @@
 
         public function index() {
             $this->load->model('BookingModel');
-            $data['pemesanan'] = $this->load->getData();
+            $data['pemesanan'] = $this->load->getDataPemesanan();
             $this->load->view("booking", $data);
         }
 
