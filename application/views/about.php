@@ -47,32 +47,24 @@
                 <div class="team-member">
                     <img src="<?php echo base_url('assets/images/person1.jpg'); ?>" alt="Person 1">
                     <h4>3411201005 - Muhammad Raqil Salman </h4>
-                    <p>CEO</p>
-                    <p>Muhammad Raqil Salman adalah CEO dari Villa Rental. Dia memiliki pengalaman yang luas dalam industri properti dan manajemen.</p>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="team-member">
                     <img src="<?php echo base_url('assets/images/person2.jpg'); ?>" alt="Person 2">
                     <h4>3411201036 - Hira Nur Afifah</h4>
-                    <p>CTO</p>
-                    <p>Hira Nur Afifah adalah CTO dari Villa Rental. Dia bertanggung jawab atas pengembangan teknologi dan infrastruktur.</p>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="team-member">
                     <img src="<?php echo base_url('assets/images/person3.jpg'); ?>" alt="Person 3">
                     <h4>3411201038 - Muhammad Ihsan Maulana</h4>
-                    <p>Marketing Manager</p>
-                    <p>Muhammad Ihsan Maulana adalah Marketing Manager dari Villa Rental. Dia memiliki keahlian dalam strategi pemasaran dan branding.</p>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="team-member">
                     <img src="<?php echo base_url('assets/images/person4.jpg'); ?>" alt="Person 4">
                     <h4>3411201040 - Iqbal Prayoga</h4>
-                    <p>Customer Support</p>
-                    <p>Iqbal Prayoga adalah Customer Support dari Villa Rental. Dia siap membantu pelanggan dengan kebutuhan dan pertanyaan mereka.</p>
                 </div>
             </div>
         </div>
