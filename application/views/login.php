@@ -29,10 +29,6 @@
                 <br>
                 <input type="submit" class="btn btn-primary float-right" value="Login">
             </div>
-            <div class="card-footer text-center">
-                Tidak Punya Akun?
-                <br><a href="<?php echo site_url('home/register') ?>">Register</a>
-            </div>
         </div>
     </body>
 </html>
