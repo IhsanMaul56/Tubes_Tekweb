@@ -7,17 +7,21 @@ class Villa extends CI_Controller {
     }
 
     public function booking() {
+        $this->load->view('navbar');
         $this->load->view('booking');
     }
 
     public function payment() {
+        $this->load->view('navbar');
         $this->load->view('payment');
     }
 
     public function report() {
+        $this->load->view('navbar');
         $this->load->view('report');
     }
     public function about() {
+        $this->load->view('navbar');
         $this->load->view('about');
     }
 }
