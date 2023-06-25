@@ -1,6 +1,6 @@
 <?php
    class BookingModel extends CI_Model{
-        function getData() {
+        function getDataPemesanan() {
             return $this->db->get("pemesanan");
         }
 
