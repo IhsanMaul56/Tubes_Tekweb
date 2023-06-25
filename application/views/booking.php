@@ -9,7 +9,7 @@
 <body>
   <div class="container">
     <h1>Pemesanan Villa</h1>
-    <form action="submit_pemesanan" method="post">
+    <form action="<?php echo site_url('booking/prosesTambah')?>" method="post">
       <div class="form-group">
         <label for="id">ID:</label>
         <input type="text" class="form-control" id="id" name="id" placeholder="Masukkan ID Anda">
