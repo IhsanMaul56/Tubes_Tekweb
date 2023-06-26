@@ -1,18 +1,25 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
 
-class PaymentModel extends CI_Model {
+    class PaymentModel extends CI_Model {
 
-    public function read_data_pesanan() {
-        $query = $this->db->get('pemesanan');
-        return $query->result(); // Mengembalikan hasil query sebagai array objek
+        function getDataPembayaran() {
+            return $this->db->get("pemesanan");
+        }
+
+        function getPembayaranByID($id) {
+            $this->db->where("ID_Pesanan", $id);
+            return $this->db->get("pemesanan");
+        }
+
+        function insertDataPembayaran() {
+            $pembayaran = array(
+                "ID" => $this->input->get("id"),
+                "Nama" => $this->input->post("nama"),
+                "Tarif" => $this->input->post("tarif"),
+                "Jenis_Penbayaran" => $this->input->post("cara_pembayaran"),
+                "Status_Pembayaran" => $this->input->post("status_pembayaran")
+            );
+            return $this->db->insert("pemesanan", $pemesanan);
+        }
     }
-
-    public function proses_payment() {
-        // Kode untuk pemrosesan pembayaran dan memasukkan data ke tabel 'pemesanan'
-        // ...
-
-        // Contoh: Panggil fungsi read_data_pesanan()
-        return $this->read_data_pesanan();
-    }
-}
+?>

@@ -14,6 +14,10 @@
                 <button type="submit" class="btn btn-primary mt-3">Cari</button>
             </div>
             <div class="form-row">
+            <div class="form-group col-md-6">
+                    <label for="nama">ID:</label>
+                    <input type="text" name="id" id="id" class="form-control" required>
+                </div>
                 <div class="form-group col-md-6">
                     <label for="nama">Nama:</label>
                     <input type="text" name="nama" id="nama" class="form-control" required>
