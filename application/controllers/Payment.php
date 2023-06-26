@@ -12,12 +12,7 @@
         }
     
         public function proses_payment() {
-            if($this->PaymentModel->insertData()){
-                redirect(site_url("home"));
-            }
-            else{
-                redirect(site_url("/tambah"));
-            }
+            
         }
     }
     
