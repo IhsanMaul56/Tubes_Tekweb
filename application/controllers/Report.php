@@ -8,7 +8,9 @@
         }
 
         public function index() {
+            $this->load->model("ReportModel","",TRUE);
             $data['pemesanan'] = $this->ReportModel->getDataReport();
+            $this->load->view("navbar");
             $this->load->view('report', $data);
         }
     }

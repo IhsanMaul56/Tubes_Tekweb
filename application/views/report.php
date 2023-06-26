@@ -22,18 +22,19 @@
                     <th>Tarif</th>
                 </tr>
             </thead>
-            <?php foreach ($pemesanan as $row): ?>
-                <tbody>
-                    <tr>
-                        <td><?php echo $row->ID_Pesanan; ?></td>
-                        <td><?php echo $row->Nama; ?></td>
-                        <td><?php echo $row->tanggal_masuk; ?></td>
-                        <td><?php echo $row->Jenis_Kamar; ?></td>
-                        <td><?php echo $row->Durasi; ?></td>
-                        <td><?php echo $row->Tarif; ?></td>
-                    </tr>
-                </tbody>
-            <?php endforeach; ?>
+            <tbody>
+            <?php
+                foreach($pemesanan->result() as $row){
+                    echo "<tr>";
+                    echo "<td>$row->ID_Pesanan</td>";
+                    echo "<td>$row->Nama</td>";
+                    echo "<td>$row->tanggal_masuk</td>";
+                    echo "<td>$row->Jenis_Kamar</td>";
+                    echo "<td>$row->Durasi</td>";
+                    echo "<td>$row->Tarif</td>";
+                }
+            ?>
+            </tbody>
         </table>
     </div>
 

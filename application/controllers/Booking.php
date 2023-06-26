@@ -6,9 +6,10 @@
         }
 
         public function index() {
-            $this->load->model('BookingModel');
-            $data['pemesanan'] = $this->load->getDataPemesanan();
-            $this->load->view("booking", $data);
+            // $this->load->model('BookingModel');
+            // $data['pemesanan'] = $this->load->getDataPemesanan();
+            $this->load->view("navbar");
+            $this->load->view("booking");//, $data);
         }
 
         public function prosesTambah() {
