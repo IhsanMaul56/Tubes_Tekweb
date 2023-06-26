@@ -56,9 +56,6 @@
                         <a class="nav-link" href="<?php echo site_url('booking'); ?>">Pemesanan</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo site_url('payment'); ?>">Pembayaran</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="<?php echo site_url('report'); ?>">Laporan</a>
                     </li>
                     <li class="nav-item">
@@ -86,18 +83,19 @@
             </div>
             <div class="col-md-4">
                 <div class="dashboard-card">
-                    <span class="card-icon">&#128181;</span>
-                    <h4 class="card-title">Pembayaran</h4>
-                    <p class="card-description">Cek status pembayaran dari pelanggan</p>
-                    <a href="<?php echo site_url('payment'); ?>" class="btn btn-primary">Bayar</a>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="dashboard-card">
                     <span class="card-icon">&#128202;</span>
                     <h4 class="card-title">Laporan</h4>
                     <p class="card-description">Buat laporan tentang aktivitas penyewaan</p>
                     <a href="<?php echo site_url('report'); ?>" class="btn btn-primary">Laporan</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="dashboard-card">
+                    <span class="card-icon">&#128181;</span>
+                    <h4 class="card-title">About Us</h4>
+                    <p class="card-description">Daftar Anggota Kelompok</p>
+                    <br>
+                    <a href="<?php echo site_url('about'); ?>" class="btn btn-primary">Lihat</a>
                 </div>
             </div>
         </div>
