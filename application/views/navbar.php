@@ -44,23 +44,23 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="<?php echo site_url('villa/index'); ?>">Villa Rental</a>
+            <a class="navbar-brand" href="<?php echo site_url('home'); ?>">Villa Rental</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo site_url('villa/booking'); ?>">Pemesanan</a>
+                        <a class="nav-link" href="<?php echo site_url('booking'); ?>">Pemesanan</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo site_url('villa/payment'); ?>">Pembayaran</a>
+                        <a class="nav-link" href="<?php echo site_url('payment'); ?>">Pembayaran</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo site_url('villa/report'); ?>">Laporan</a>
+                        <a class="nav-link" href="<?php echo site_url('report'); ?>">Laporan</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo site_url('villa/About'); ?>">About</a>
+                        <a class="nav-link" href="<?php echo site_url('about'); ?>">About</a>
                     </li>
                     <li>
                         <a class="nav-link" href="<?php echo site_url('home/logout'); ?>">Log Out</a>

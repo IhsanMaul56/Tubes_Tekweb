@@ -6,7 +6,7 @@
 
         function insertData() {
             $pemesanan = array(
-                "ID" => $this->input->post("id"),
+                "ID_Pesanan" => $this->input->post("id"),
                 "Nama" => $this->input->post("nama"),
                 "JK" => $this->input->post("jenis_kelamin"),
                 "alamat" => $this->input->post("alamat"),
@@ -16,11 +16,6 @@
                 "Tarif" => $this->input->post("tarif"),
             );
             return $this->db->insert("pemesanan", $pemesanan);
-        }
-
-        function getDataById($id) {
-            $this->db->where("Code", $id);
-            return $this->db->get("pemesanan");
         }
    } 
 ?>
