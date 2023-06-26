@@ -7,7 +7,7 @@
 <body>
     <div class="container">
         <h2>PEMBAYARAN</h2>
-        <form action="pembayaran/proses_pembayaran" method="POST">
+        <form action="<?php echo site_url('payment/proses_payment');?>" method="POST">
             <div class="form-group">
                 <label for="cari_pesanan">Cari Pesanan:</label>
                 <input type="text" name="cari_pesanan" id="cari_pesanan" class="form-control">
